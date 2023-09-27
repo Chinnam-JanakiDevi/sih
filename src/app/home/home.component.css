@@ -1,0 +1,16 @@
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.image img{
+    border-radius: 15px;
+    box-shadow: 5px gray;
+}
+.image p{
+    text-align: center;
+    padding-left: 10px;
+    font-size: xx-large;
+    color: rgb(64, 0, 255);
+}
