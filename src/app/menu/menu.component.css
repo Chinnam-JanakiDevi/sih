@@ -46,3 +46,35 @@ h1{
     font-size: 20px;
 
   }
+
+  .talents{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    gap: 20px;
+
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.301);
+
+}
+
+.talents .card1 p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(0, 140, 255, 0.842);
+    padding: 5px 0px 0px 20px;
+}
+
+.card img{
+    border-radius:20%;
+}
