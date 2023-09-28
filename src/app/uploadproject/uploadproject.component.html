@@ -1,13 +1,13 @@
 
 <div class="body"><div class="container mt-5" id="body">
-    <h1>Upload Event</h1>
+    <h1>Upload Project</h1>
     <form>
         <div class="mb-3">
-            <label for="event_name" class="form-label">Event Name</label>
+            <label for="event_name" class="form-label">Project Name</label>
             <input type="text" class="form-control" id="event_name"  required name="e_name" >
         </div>
         <div class="mb-3">
-            <label for="event_type" class="form-label">Event Type</label>
+            <label for="event_type" class="form-label">Project Domain</label>
             <select class="form-select" id="event_type" required name="e_type" >
                 <option value="conference">Conference</option>
                 <option value="workshop">Workshop</option>
@@ -15,22 +15,22 @@
             </select>
         </div>
         <div class="mb-3">
-            <label for="event_sdate" class="form-label">Event Start Date</label>
+            <label for="event_sdate" class="form-label">College Name</label>
             <input type="text" class="form-control" id="event_sdate" required name="e_sdate" >
         </div>
         <div class="mb-3">
-            <label for="event_edate" class="form-label">Event End Date</label>
+            <label for="event_edate" class="form-label">Email</label>
             <input type="text" class="form-control" id="event_edate" required name="e_edate">
         </div>
         <div class="mb-3">
-            <label for="e_poster" class="form-label">Event Poster</label>
+            <label for="e_poster" class="form-label">Output Video</label>
             <input type="file" class="form-control" id="e_poster"  accept="image/*" required name="e_poster">
         </div>
         <div class="mb-3">
-            <label for="event_fee" class="form-label">Event Fee</label>
-            <input type="number" class="form-control" id="event_fee" required name="e_fee">
+            <label for="event_fee" class="form-label">project file</label>
+            <input type="file" class="form-control" id="event_fee" required name="e_fee">
         </div>
-        <div class="mb-3">
+        <!-- <div class="mb-3">
             <label for="event_contact" class="form-label">Event Contact</label>
             <input type="text" class="form-control" id="event_contact" required name="e_contact" >
         </div>
@@ -49,16 +49,16 @@
         <div class="mb-3">
             <label for="event_address" class="form-label">Event Address</label>
             <input type="text" class="form-control" id="event_address" required name="e_address">
-        </div>
+        </div> -->
         <div class="mb-3">
-            <label for="event_more" class="form-label">Additional Information</label>
+            <label for="event_more" class="form-label">Challenges</label>
             <textarea class="form-control" id="event_more"  rows="4" required name="e_more"></textarea>
         </div>
         <div class="mb-3">
-            <label for="event_more" class="form-label">event_id </label>
+            <label for="event_more" class="form-label">contact details</label>
             <input type="text" class="form-control" id="event_address" required name="e_id">
         </div>
-        <button type="submit" class="btn btn-primary" >Create Event</button>
+        <button type="submit" class="btn btn-primary" >Upload Project</button>
     </form>
 </div>
 </div>

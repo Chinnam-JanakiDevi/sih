@@ -8,7 +8,7 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     border-radius: 10%;
     padding-left: 50px;
 }
@@ -33,16 +33,16 @@ h1{
     padding-left: 50px;
 } */
 .resume{
-    background-color: wheat;
+    background-color: rgba(128, 128, 128, 0.482);
   }
  .education .square .stream button:hover{
-    background-color: rgba(0, 0, 255, 0.329);
+    background-color: gray;
   }
 
 .resume a{
     text-decoration: none;
-    color: black;
-    font-weight: bolder;
+    color:black;
+    font-weight: bold;
     font-size: 20px;
 
   }

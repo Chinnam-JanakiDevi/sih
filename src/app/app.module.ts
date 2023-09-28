@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { OutputvideosComponent } from './outputvideos/outputvideos.component';
 import { UploadprojectComponent } from './uploadproject/uploadproject.component';
 import { LoginComponent } from './login/login.component';
+import { ProjectsviewComponent } from './projectsview/projectsview.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './login/login.component';
     MenuComponent,
     OutputvideosComponent,
     UploadprojectComponent,
-    LoginComponent
+    LoginComponent,
+    ProjectsviewComponent
   ],
   imports: [
     BrowserModule,

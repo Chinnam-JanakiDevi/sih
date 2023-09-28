@@ -5,14 +5,14 @@ import { LoginComponent } from './login/login.component';
 import { UploadprojectComponent } from './uploadproject/uploadproject.component';
 import { OutputvideosComponent } from './outputvideos/outputvideos.component';
 import { MenuComponent } from './menu/menu.component';
+import { ProjectsviewComponent } from './projectsview/projectsview.component';
 const routes: Routes = [
   {path:'home',component:HomeComponent},
-  // {path:'login',component:LoginComponent},
   {path:'menu',component:MenuComponent},
-
   {path:'uploadproject',component:UploadprojectComponent},
+  {path:'login',component:LoginComponent},
+  {path:'projectsview',component:ProjectsviewComponent},
   {path:'outputvideos',component:OutputvideosComponent},
-
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
